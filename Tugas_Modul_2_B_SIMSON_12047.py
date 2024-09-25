@@ -4,8 +4,7 @@ import pickle
 import os
 
 
-model_path = 'C:\Users\YAWE MANOLO\Downloads\TGS_B_12047'
-model = os.path.join(model_path, 'RF_heartDisease_model.pkl')
+model = 'RF_heartDisease_model.pkl'
 
 with open(model, 'rb') as f:
     loaded_model = pickle.load(f)
